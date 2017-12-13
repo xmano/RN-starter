@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { Image, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
 
+/**
+ *  Demonstrates
+ *    Button using Image in TouchableHighlight, dynamic style toggling
+ *    
+ */
 class MainApp extends Component {
   name = '01. Singh is King';
   heart = require('./img/plain-heart.png');
